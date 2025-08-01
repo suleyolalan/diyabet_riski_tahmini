@@ -1,14 +1,11 @@
-# diyabet_riski_tahmini
+# Makine Öğrenmesi ile Diyabet Riski Tahmini
 
 Bu projede, bireylerin diyabet hastalığı riski taşıyıp taşımadığını tahmin etmek amacıyla çeşitli makine öğrenmesi algoritmaları karşılaştırmalı olarak analiz edilmiştir.
-
 Çalışmada Pima Indian Diabetes veri seti kullanılmıştır. Veri ön işleme sürecinde:
 
-Aykırı değerler temizlenmiş,
-
-Veriler standartlaştırılmış,
-
-Eğitim ve test setlerine bölünmüştür.
+-Aykırı değerler temizlenmiş,
+-Veriler standartlaştırılmış,
+-Eğitim ve test setlerine bölünmüştür.
 
 Sekiz farklı makine öğrenmesi modeli, çapraz doğrulama yöntemiyle eğitilmiş ve elde edilen doğruluk oranları karşılaştırılmıştır. En düşük performansa sahip olan Decision Tree algoritmasına hiperparametre optimizasyonu uygulanarak anlamlı bir performans iyileştirmesi sağlanmıştır.
 
